@@ -1,0 +1,70 @@
+.container ul li {
+  list-style: none;
+}
+body {
+  font-family: 'Anek Malayalam', sans-serif;
+  background-color: white;
+  color: #11052c;
+  justify-content: center;
+  margin: 0;
+  padding: 0 30px;
+}
+.quiz-container {
+  box-shadow: rgba(0, 0, 0, 0.50) 0px 54px 55px, rgba(0, 0, 0, 0.50) 0px -12px 30px, rgba(0, 0, 0, 0.50) 0px 4px 6px, rgba(0, 0, 0, 0.50) 0px 12px 13px, rgba(0, 0, 0, 0.50) 0px -3px 5px;
+  padding: 40px;
+  justify-content: center;
+  margin-left: 300px;
+  margin-right: 280px;
+  margin-top: 30px;
+  /* border: 1px solid white; */
+  border-radius: 20px;
+  background-color: #1c3a5d;
+}
+.quiz-container label {
+  padding: 10px;
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 70px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.quiz-container label:hover{
+  background-color: rgb(253, 214, 163);
+}
+button {
+  width: 100px;
+  height: 50px;
+  margin-left: 280px;
+}
+.question_title{
+  font-weight: bold;
+  font-size: 20px;
+}
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+.result_window{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.50) 0px -12px 30px, rgba(0, 0, 0, 0.50) 0px 4px 6px, rgba(0, 0, 0, 0.50) 0px 12px 13px, rgba(0, 0, 0, 0.50) 0px -3px 5px;
+ 
+  margin: 100px 250px 100px 250px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ 
+  
+  background-color: #1c3a5d;
+  color: rgb(255, 255, 255);
+  
+  
+}
+.result_window h2{
+  color: wheat;
+}
+.result_window p{
+  font-size: 30px;
+}

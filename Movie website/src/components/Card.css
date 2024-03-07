@@ -1,0 +1,67 @@
+.card-container {
+  height: 500px;
+  width: 500px;
+  margin: 10px;
+  border-radius: 1px;
+  box-shadow: 0px 0px 0px #999999;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  color: white;
+  background-color: rgb(60, 0, 255);
+  height: fit-content;
+  background-color: rgb(57, 57, 57);
+  margin-top: 20px; 
+}
+.card-container h6{
+  max-width: fit-content;
+  text-align: center;
+  height: 45px;
+}
+.star{
+  
+  margin-top: 5px;
+  display: flex;
+  margin-left: 10px;
+}
+.card-star{
+  margin-left: 45px;
+  height: 30px;
+  width: 30px;
+
+}
+.card-rating{
+  margin-top: 2px;
+  margin-left: 15px;
+}
+.card-img {
+  width: 190px;
+  height: 284px;
+ 
+}
+
+.card-title {
+  margin: 0.5rem 5%;
+}
+
+.card-description {
+  margin: 0.5rem 5%;
+}
+
+.card-btn {
+  text-align: center;
+  width: 90%;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  margin: 0.5rem 0.5rem;
+}
+
+h6{
+  overflow-x: hidden;
+}
+h6::-webkit-scrollbar {
+  display: none;
+}

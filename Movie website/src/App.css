@@ -1,0 +1,86 @@
+.body {
+  background: black;
+}
+.App {
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  margin-left: 60px;
+}
+
+.col1 {
+  
+  background: black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.col {
+  margin-left: 23px;
+  overflow-x: scroll;
+  height: 100%;
+  display: flex;
+  /*  
+  flex-direction: column; */
+}
+.carousel-item {
+  height: 365px;
+  background-color: black;
+}
+
+.navbar-nav li.nav-item a.nav-link {
+  color: white;
+}
+.nav-item:hover {
+  border: 2px solid white;
+  border-radius: 10px;
+}
+nav {
+  background-color: black;
+  padding: 5px;
+  display: flex;
+  height: 70px;
+}
+div ul li a {
+  color: white;
+}
+.nav-item {
+  color: white;
+}
+#logo {
+  height: 50px;
+  width: auto;
+  margin: 6px;
+}
+#location {
+  height: 40px;
+  width: 100px;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+.d-flex {
+  width: 700px;
+  height: 60px;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+#all {
+  width: 10%;
+  background-color: #e7f1ff;
+}
+form {
+  padding: 9px;
+}
+.btn-outline-success {
+  width: 10%;
+  color: white;
+}
+#cart {
+  height: 60px;
+  width: 150px;
+  margin-right: 9px;
+}

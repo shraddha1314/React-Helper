@@ -1,0 +1,21 @@
+.container-fluid{
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+}
+.container-fluid img{
+    height: 500px;
+    width: 500px;
+}
+.content_details{
+    display: flex;
+}
+.details{
+    padding: 12px;
+    margin-left: 40px;
+}
+
+h6{
+    font-size: 25px;
+}
+
